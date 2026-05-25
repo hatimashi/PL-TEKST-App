@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "PL-TEKST-App",
+    "name": "PL-TEKST",
     "slug": "PL-TEKST-App",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,20 +10,28 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f8f7f4"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "pl.primestep.pltekst"
     },
     "android": {
+      "package": "pl.primestep.pltekst",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#f8f7f4"
       },
       "edgeToEdgeEnabled": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "95269eef-0f73-44ce-a1b8-e0bb8166875b"
+      }
     }
   }
 }
